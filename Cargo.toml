@@ -1,0 +1,15 @@
+[package]
+name = "rafchafetch"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sys-info = "0.9"
+winapi = { version = "0.3", features = ["sysinfoapi"] }
+hostname = "0.3"
+colored = "2.0"
+get_if_addrs = "0.5.3"
+
+[[bin]]
+name = "rafchafetch"
+path = "src/main.rs"
