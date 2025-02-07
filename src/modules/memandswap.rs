@@ -88,7 +88,7 @@ pub(crate) fn get_swap_info() -> Option<MemoryStats> {
         let used_swap = mem_status.ullTotalPageFile - mem_status.ullAvailPageFile - mem_status.ullAvailPhys;
         
         let percent = if total_swap > 0 {
-            (used_swap as f64 / total_swap as f64) * 10.0
+            (used_swap as f64 / total_swap as f64)
         } else {
             0.0
         };
