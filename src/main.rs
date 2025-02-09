@@ -8,6 +8,7 @@ use modules::memandswap::get_memory_info;
 use modules::memandswap::get_swap_info;
 use modules::hostname::get_hostname;
 use modules::ip::get_ip_address;
+use std::env;
 
 fn main() {
     let os_type = os_type().unwrap();
