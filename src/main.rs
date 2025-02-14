@@ -50,7 +50,7 @@ fn main() {
         }
         print!("{}", "⣿⣿⡄ ⠾⢡⣛⣏⡹⢶⠖⣤⣾⡿ ⣛⣥⣬⣭⣥⣤⠙⠿⢷⣶⣦⡭         ".green());
         println!("{}    {}","IP Address:".green(), get_ip_address().green());
-        print!("{}", "⠎⣉⠛⡈⣴⣾⣟⠻⣿⡶⢿⣿⡾⢃⠮⢍⣉⠉⣒⠲⢶⣾⠇⣴⡆⢩⡻         ".green())
+        println!("{}", "⠎⣉⠛⡈⣴⣾⣟⠻⣿⡶⢿⣿⡾⢃⠮⢍⣉⠉⣒⠲⢶⣾⠇⣴⡆⢩⡻         ".green())
 
     } else if args.len() > 1 && args[1] == "-b" {
 
@@ -85,7 +85,7 @@ fn main() {
         }
         print!("{}", "⣿⣿⣿⠟⣡⣾⠘⡀⣉⡉⣀⣉⠁⠐⢛⣛⡀⢱⡝⣿⣷⣥⡘⢿⣿         ".green());
         println!("{}    {}","IP Address:".green(), get_ip_address().green());
-        print!("{}", "⢿⢟⣡⣾⡿⣱⣿⣼⡿⣼⣿⣿⢜⣿⣎⢷⣴⡆⣿⣮⡻⣿⣿⣷⣌         ".green())
+        println!("{}", "⢿⢟⣡⣾⡿⣱⣿⣼⡿⣼⣿⣿⢜⣿⣎⢷⣴⡆⣿⣮⡻⣿⣿⣷⣌         ".green())
 
     } else if args.len() > 1 && args[1] == "-c" {
 
@@ -120,7 +120,7 @@ fn main() {
         }
         print!("{}", "⠑⢇⠿⣿⠿⠋  ⠓⢠⡸⠿⢿⣿⠃⠈⣿⣿⣿⠇⡆⠘⢧⢤⣰⡇⡿         ".green());
         println!("{}    {}","IP Address:".green(), get_ip_address().green());
-        print!("{}", "⠈⠷⡀⣄⢲⡀  ⢰⣼⠔⡋⠤⠔⠂⠐⠡⠭⢙⢰⡄ ⠈⠣⠛⠁⠁          ".green())
+        println!("{}", "⠈⠷⡀⣄⢲⡀  ⢰⣼⠔⡋⠤⠔⠂⠐⠡⠭⢙⢰⡄ ⠈⠣⠛⠁⠁          ".green())
 
     } else {
 
