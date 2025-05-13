@@ -3,7 +3,6 @@ use winapi::um::sysinfoapi::GetTickCount64;
 
 #[cfg(unix)]
 pub fn get_uptime() -> Result<u64, String> {
-    // Читаем /proc/uptime на Linux
     let content = std::fs::read_to_string("/proc/uptime")
         .map_err(|e| format!("Ошибка чтения /proc/uptime: {}", e))?;
     
